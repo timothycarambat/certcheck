@@ -60,5 +60,5 @@ php certcheck.php
 ## Setup Cron
 ```
 #setup for 1st and 15th of month
-0 0 0 1,15 * php ~/certcheck/certcheck.php > /dev/null 2>&1
+0 0 1,15 * * php ~/certcheck/certcheck.php > /dev/null 2>&1
 ```
