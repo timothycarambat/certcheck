@@ -8,7 +8,7 @@ This looks like below:
 
 
 # Get Started
-Its easy to get started. It is suggested you do this over SSH and have 
+Its easy to get started. It is suggested you do this over SSH and have
  [Composer](https://getcomposer.org//) already installed on the server. This file should not be in any public directory and will typically sit in the root directory of your server.
 
 ## Clone Repo
@@ -49,9 +49,16 @@ $mail->addAddress('me@example.com'); //Set to your email
 
 ```
 
+## Test it works
+```
+#~/certcheck/
+php certcheck.php
+
+#Should respond 'Email Sent'. Check Email for report.
+```
+
 ## Setup Cron
 ```
 #setup for 1st and 15th of month
-0 0 0 1,15 * php ~/certcheck/certcheck.php 
+0 0 0 1,15 * php ~/certcheck/certcheck.php > /dev/null 2>&1
 ```
-

@@ -90,7 +90,7 @@ foreach ($expiries as $url => $days) {
 }
 
 $res .="
-<footer>Help contribute to this tool at <a href='#'> Here </a></footer>
+<footer>Help contribute to this tool at <a href='https://github.com/timothycarambat/certcheck'> Here </a></footer>
 </div>
 </body>
 </html>
