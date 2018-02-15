@@ -53,6 +53,6 @@ $mail->Subject = 'SSL Checker Report '.Carbon::now()->toFormattedDateString();
 $mail->Body    = makeMailBody($expiries);
 
 $mail->send();
-echo 'Message has been sent';
+echo "Message has been sent \n";
 
 ?>
