@@ -38,7 +38,7 @@ $urls =[
 
 $mail->Host = 'your.host.com'; //Enter your Host Here
 $mail->SMTPAuth = true;
-$mail->Username = 'sslchecker@example.com'; //Set Email accunt username
+$mail->Username = 'sslchecker@example.com'; //Set Email account username
 $mail->Password = 'hunter2'; //Set Secret Pass
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465; //Make sure port is correct for server
